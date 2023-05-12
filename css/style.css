@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   
 }
 
 h1 {
@@ -76,12 +76,7 @@ p {
     text-decoration: none;
     list-style: none;
 }
-
-.nav-list .nav-itmes {
-display: inline-block;
-}
-
-
+ 
 nav ul li a {
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
@@ -92,8 +87,19 @@ nav ul li a {
     font-size: 16px; 
     letter-spacing: 1px;
 }
+/* Column list CSS / container solutions */
 
-/* Here start hero section*/
+.col-3-flex {
+    display: flex;
+}
+
+/* .flex-aligncenter {
+
+    margin-left: auto;
+  margin-right: auto;
+}
+ */
+
 
 .header-container {
     background-color: #212121;
@@ -107,7 +113,7 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 0px 180px 0px;
+    padding: 100px 0px 180px 0px;
 }
 
 
